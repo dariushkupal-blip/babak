@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(255, 72, 72);
+    display: flex;
+    flex-direction: column; /* یا حذف display:flex از body */
+    align-items: center;
+    row-gap: 10px;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.parent {
+    width: 80%;
+    min-height: 20vh; /* ارتفاع حداقلی */
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(54, 19, 105); /* اضافه کردن ضخامت و رنگ */
+    padding: 10px 0;
+}
+
+.parent p {
+    padding: 5px;
+    margin: 0; /* حذف مارجین پیشفرض <p> */
+}
